@@ -122,6 +122,12 @@
     padding: 5%;
 }
 
+.button_next_step{
+  position: relative;
+  left: -10%;
+  bottom: 10px;
+}
+
 @media (max-width: 768px) {
   body {
     background-color: #f0f6ff;

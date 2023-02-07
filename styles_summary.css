@@ -20,8 +20,15 @@ hr{
     padding-left: 170px;
 }
 
-.container_rodmap{
-    margin-left: -9%;
+.button_next_step{
+    position: relative;
+    left: 4%;
+    bottom: -50px;
+}
+
+
+.container_roadmap{
+    margin-left: -11%;
 }
 
 

@@ -59,10 +59,13 @@
 
 .botao{
     position: relative;
-    left: 80px;
-    top: 45px;
+    left: 97px;
+    top: 30px;
 }
 
+.container_roadmap{
+    margin-left: -16%;
+}
 
 
 
