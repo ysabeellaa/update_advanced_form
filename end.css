@@ -1,0 +1,70 @@
+.container_roadmap{
+    margin-left: -27%;
+}
+
+.div_sem_botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        background-color: #f0f6ff;
+        height: 100vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 0;
+    }
+    .container{
+        width: 900px;
+        margin: auto;
+        background-color:#f0f6ff;
+        padding: 15px;
+        border-radius: 10px;
+        height: 550px;
+        flex-direction: column;
+        margin: 0;
+    }
+    .informacoes_lateral{
+        display: none;
+    }
+    .container_roadmap--lista{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   
+    }
+
+
+    .container_roadmap{
+        background-size: cover;
+        width: 100%;
+        flex-direction: row;
+        position: absolute;
+        top: 0%;
+        background-image: url(./assets/images/bg-sidebar-mobile.svg);
+        border-radius: 0%;
+        padding: 10%;
+        height: 30%;
+        margin-left: 0;
+    }
+
+    .div_sem_botao{
+        background-color: white;
+        padding: 25px;
+        margin-left: 1%;
+        border-radius: 5%;
+        position: relative;
+        top: -80px;
+    }
+
+
+
+
+}

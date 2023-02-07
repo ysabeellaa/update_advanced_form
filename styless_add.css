@@ -1,0 +1,86 @@
+.mosaico_add{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.mosaico_add_ind{
+    display: flex;
+    border: 1px solid #d6d9d6;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mosaico_add_ind_frases{
+    padding-left: 20px;
+    margin-right: 40px;
+}
+
+.container_informacoes{
+    margin-top: -90px;
+}
+
+.container_informacoes_pag1 p{
+    margin: 1px;
+    color: #02295a;
+}
+
+.container_informacoes_pag1 .p_cinza_maior{
+    font-size: 14px;
+    color: gray;
+    margin: 15px;
+}
+
+.container_informacoes_pag1 .p_cinza{
+    margin: 1px;
+    color: gray;
+    font-size: 12px;
+
+}
+
+.container_informacoes_pag1 .extensao{
+    margin-left: 15px;
+    color: #6662bc;
+    font-size: 12px;
+}
+
+
+.p_azul{
+    color: #02295a;
+    font-weight: 700;
+}
+
+.div_sem_botao{
+    margin-top: 50px;
+}
+
+.botao{
+    position: relative;
+    left: 80px;
+    top: 45px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .div_sem_botao{
+        height: 400px;
+        
+    }
+
+    .mosaico_add_ind{
+        margin: 3%;
+    }
+
+    .botao{
+        position: relative;
+        left: 7%;
+        top: 40px;
+    }
+
+}
+

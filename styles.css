@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+body{
+    background-color:#f0f6ff; 
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    height: 90vh;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+
+.container_roadmap--lista-conteudo{
+    list-style-type: none;
+}
+
+.container_roadmap{
+    background-image: url(./assets/images/bg-sidebar-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 15px;
+    border-radius: 10px;
+    padding: 15px;
+    width: 30%;
+    height: 95%;
+    margin-left: -4%;
+}
+
+.container_rodmap--lista-item{
+    display: flex ;
+    padding-bottom: 25px;
+}
+
+.index{
+    border: 1px solid #d6d9e6;
+    border-radius: 100%;
+    margin-right: 18px;
+    font-weight: 700;
+    padding: 8px 15px;
+    color: #d6d9e6;
+    
+}
+
+.informacoes_lateral{
+    color: #d6d9e6;
+}
+.informacoes_lateral p{
+    color:white;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.informacoes_lateral span{
+    font-size: 10px;
+}
+
+
+.container_informacoes{
+    margin-left: 1%;
+}
+
+.div_sem_botao{
+    margin-left:20px ;
+}
+
+.container_informacoes_pag1 h1{
+    color: #02295a;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.container_informacoes_pag1 label{
+    font-size: 12px;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+.container_informacoes_pag1 p{
+    color: #9699ab;
+    margin: 5% 0;
+    font-size: 15px;
+
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3%;
+}
+
+.container_informacoes_pag1 input{
+    border: 1px solid #d6d9e6;
+    border-radius: 5PX;
+    padding: 10PX;
+}
+
+.container_informacoes_pag1 input:hover{
+    border: 1px solid #02295a;
+}
+
+.botao{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+.button_next_step{
+
+    padding: 15px 15px;
+    border-radius: 5px;
+    background-color: #02295a;
+    color: white;;
+    border: none;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.step_active{
+   background-color: #bfe2fd;
+    color: black;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        background-color: #f0f6ff;
+        height: 100vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 0;
+    }
+    .container{
+        width: 900px;
+        margin: auto;
+        background-color:#f0f6ff;
+        padding: 15px;
+        border-radius: 10px;
+        height: 550px;
+        flex-direction: column;
+        margin: 0;
+    }
+    .informacoes_lateral{
+        display: none;
+    }
+    .container_roadmap--lista{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   
+    }
+
+
+    .container_roadmap{
+        background-size: cover;
+        width: 100%;
+        flex-direction: row;
+        position: absolute;
+        top: 0%;
+        background-image: url(./assets/images/bg-sidebar-mobile.svg);
+        border-radius: 0%;
+        padding: 10%;
+        height: 30%;
+        margin-left: 0;
+    }
+
+    .div_sem_botao{
+        background-color: white;
+        padding: 25px;
+        margin-left: 1%;
+        border-radius: 5%;
+        position: relative;
+    }
+
+
+}
