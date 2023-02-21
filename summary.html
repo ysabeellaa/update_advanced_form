@@ -20,7 +20,14 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
+
+
+
+
+
+
 <body>
+   
   <div class="container">
     <div class="container_roadmap">
       <aside class="aside_bar">
@@ -71,16 +78,19 @@
             <h1>Finishing Up</h1>
             <p>Double-check everything looks OK before confirming.</p>
             <div class="destaque">
-                <div class="display">
-                    <p>
-                        <span class="selected-plan">Pro</span>
+                    <div id="plano_dinamico">
+                        <!-- <span class="selected-plan">Pro</span>
                         <span class="final-duration">(Monthly)</span>
-                    </p>
-                    <a href="#" class="change-plan-btn">Change</a> 
-                </div>
-                <div>
-                    <p class="amount selected-plan-price">$9/mo</p>
-                </div>
+                        <span class="amount selected-plan-price">$9/mo</span> -->
+                    </div>
+                    <div id="addons_dinamico">
+                        <!-- <span class="selected-plan">Pro</span>
+                        <span class="final-duration">(Monthly)</span>
+                        <span class="amount selected-plan-price">$9/mo</span> -->
+                    </div>
+
+                    <!-- <a href="#" class="change-plan-btn">Change</a>  -->
+                
             </div>
         </div>
 
@@ -103,4 +113,8 @@
   
   
 </body>
+<script src="js/index.js"></script>
+<script>
+  window.onload = loadData();
+</script>
 </html>

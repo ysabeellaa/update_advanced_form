@@ -5,7 +5,6 @@
             box-sizing: border-box;
     font-family: "Ubuntu", sans-serif;
   }
-
 body{
     background-color:#f0f6ff; 
     display: flex;
@@ -14,16 +13,18 @@ body{
     align-items: center;
 }
 
+
+.year-plan{
+    left: 27px;
+}
 .container{
     background-color: white;
     border-radius: 15px;
     display: flex;
-    height: 90vh;
+    height: 65vh;
     width: 700px;
     justify-content: center;
     align-items: center;
-    
-
     
 }
 
@@ -93,7 +94,7 @@ body{
 }
 .container_informacoes_pag1 p{
     color: #9699ab;
-    margin: 5% 0;
+    margin: 5px 0;
     font-size: 15px;
 
 }
@@ -104,7 +105,7 @@ body{
     padding-bottom: 3%;
 }
 
-.container_informacoes_pag1 input{
+#email, #nome, #telefone{
     border: 1px solid #d6d9e6;
     border-radius: 5PX;
     padding: 10PX;
@@ -129,6 +130,8 @@ body{
     font-weight: 400;
     font-size: 12px;
     text-decoration: none;
+ 
+
 }
 
 .step_active{
@@ -190,3 +193,4 @@ body{
 
 
 }
+

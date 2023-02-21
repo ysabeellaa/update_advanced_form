@@ -67,37 +67,41 @@
         <div class="div_sem_botao">
           <h1>Select your plan</h1>
           <p>You have the option of monthly or yearly billing.</p>
+          <div class="duracao">
+            <p class="duracao_selecionado plan">Monthly</p>
+            <label class="switch">
+                <input class="checkbox_plano" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <p class="plan">Yearly</p>
+        </div>
             <section class="mosaico_planos">
-                <div class="mosaico_planos_ind">
+                <div class="mosaico_planos_ind" id="plan-1">
                     <img src="assets/images/icon-arcade.svg" alt="Icone plano arcade">
                     <div class="elementos_rodape">
-                        <h2>Arcade</h2>
-                        <p>$9/mo</p>
+                        <h2 class="plan_name">Arcade</h2>
+                        <p class="arcade-plan-amount">$9/mo</p>
+                        <p class="plan-bonus disable">2 months free</p>
                     </div>
                 </div>
-                <div class="mosaico_planos_ind">
+                <div class="mosaico_planos_ind" id="plan-2">
                     <img src="assets/images/icon-advanced.svg" alt="Icone plano arcade">
                     <div class="elementos_rodape">
-                        <h2>Advanced</h2>
-                        <p>$16/mo</p>
+                        <h2 class="plan_name">Advanced</h2>
+                        <p class="advanced-plan-amount">$12/mo</p>
+                        <p class="plan-bonus disable">2 months free</p>
                     </div>
                 </div>
-                <div class="mosaico_planos_ind">
+                <div class="mosaico_planos_ind" id="plan-3">
                     <img src="assets/images/icon-pro.svg" alt="Icone plano arcade">
                     <div class="elementos_rodape">
-                        <h2>Pro</h2>
-                        <p>$25/mo</p>
+                        <h2 class="plan_name">Pro</h2>
+                        <p class="pro-plan-amount">$15/mo</p>
+                        <p class="plan-bonus disable">2 months free</p>
                     </div>
                 </div>
             </section>
-            <div class="duracao">
-                <p class="duracao_selecionado">Monthly</p>
-                <label class="switch">
-                    <input type="checkbox" checked>
-                    <span class="slider round"></span>
-                </label>
-                <p>Yearly</p>
-            </div>
+            
         <div class="botao">
           <a class="button_next_step" href="add.html">Next Step</a>
         </div>
@@ -117,4 +121,7 @@
   
   
 </body>
+<script src="js/index.js"></script>
 </html>
+
+

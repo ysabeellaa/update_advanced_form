@@ -1,14 +1,19 @@
 .destaque{
     display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
     background-color: #f0f6ff;
     padding: 5%;
     border-radius: 5px;
 }
 
+
 hr{
     size: 2px;
 }
-
+h3{
+    margin: 5px;
+}
 .selected-plan, .final-duration{
     color:  #02295a;
     font-weight: 700;
@@ -33,12 +38,20 @@ hr{
 
 
 @media (max-width: 768px) {
+    .container_roadmap{
+        margin-left: 0;
+    }
+    
+    .div_sem_botao{
+        top: 10px;
+    }
 
     .destaque .amount{
         padding-left: 153px;
     }
 
-    .div_sem_botao{
-        top: -47px;
+   
+    .destaque{
+        margin-top: 40px;
     }
 }

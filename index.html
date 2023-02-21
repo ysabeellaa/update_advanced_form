@@ -72,19 +72,19 @@
           <form action="" class="container_informacoes_pag1_form">
             <div class="informacoes">
               <label for="text" class="label">Name</label>
-              <input type="text" placeholder="Katniss Everdeen" name="text" id="text" required />
+              <input required id="nome" type="text" placeholder="Katniss Everdeen" name="text"  />
             </div>
             <div class="informacoes">
               <label for="text" class="label">Email Address</label>
-              <input type="email" placeholder="katniss@everdeen.com" name="email" id="email" required/>
+              <input required type="email" placeholder="katniss@everdeen.com" name="email" id="email"/>
             </div>
             <div class="informacoes">
               <label for="text" class="label">Phone Number</label>
-              <input type="te" placeholder="+55 (XX)XXXX-XXXX" name="text" id="text" required/>
+              <input required type="" placeholder="+55 (XX)XXXX-XXXX" name="text" id="telefone" />
             </div>
         </div>
         <div class="botao">
-          <a  type="submit" class="button_next_step" href="plan.html">Next Step</a>
+          <input type="submit"  class="button_next_step" formaction="plan.html" id="submit" value="Next Step"></input>
         </div>
         </form>
       </div>
@@ -102,8 +102,7 @@
 
 
 
-  
-  
 </body>
+<script src="js/index.js"></script>
 
 </html>

@@ -1,3 +1,13 @@
+.disable {
+  display: none;
+}
+
+
+.selected {
+  font-weight: 700;
+  color: #02295a;
+}
+
 .mosaico_planos{
     display: flex;
     align-items: center;
@@ -125,8 +135,14 @@
 .button_next_step{
   position: relative;
   left: -10%;
-  bottom: 10px;
+  bottom: -10px;
 }
+
+.checked{
+  background-color: #f0f6ff;
+  border: 2px solid #473dff;
+}
+
 
 @media (max-width: 768px) {
   body {
@@ -143,7 +159,7 @@
     background-color:#f0f6ff;
     padding: 15px;
     border-radius: 10px;
-    height: 550px;
+    height: auto;
     flex-direction: column;
     margin: 0;
 }
@@ -173,11 +189,12 @@
 
 .div_sem_botao{
     background-color: white;
-    padding: 25px 25px 5px;
+    padding: 25px 25px 0px 25px;
     margin-left: 1%;
     border-radius: 5%;
     position: relative;
-    height: 440px;
+
+    top: 45px;
 }
 
 
@@ -206,7 +223,14 @@
 .botao{
   position: relative;
   left: 7%;
-  bottom: -19px;
+  bottom: -40px;
 }
+
+.button_next_step{
+  position: relative;
+  bottom: -15px;
+  left: 0;
+}
+
 
 }
